@@ -1,0 +1,164 @@
+p {
+    font-family: 'Bonheur Royale', cursive;
+}
+
+div p {
+    font-size: 28px;
+}
+
+div h2 {
+    color: #69563a;
+}
+
+p, h2 {
+    letter-spacing: 2px;
+}
+
+div h2, p {
+    text-shadow: 3px 3px 4px beige;
+}
+
+#test {
+    padding: 5px 25px;
+}
+
+#test p:hover {
+    background-color: darkkhaki;
+}
+
+#test p, h2 {
+    text-align: end;
+}
+
+.www:hover {
+    text-decoration: underline;
+}
+
+p.www  {
+    color: coral;
+}
+
+.test, .xxx {
+    font-weight: bold;
+}
+
+p.test, .www {
+    display: block;
+    box-shadow: 5px 5px 5px #bce93f,
+                5px 5px 10px #bce93f,
+                5px 5px 15px #bce93f;
+}
+
+#test p.www {
+    letter-spacing: 5px;
+}
+
+#test i{
+    font-size: 36px;
+}
+
+.test.xxx {
+    font-family: 'Indie Flower', cursive;
+}
+
+p.test.xxx {
+    text-shadow: 5px 5px 5px #373566;
+}
+
+.test.www.xxx {
+    font-size: 30px;
+}
+
+p>a {
+    text-decoration: darkturquoise;
+}
+
+p>i {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 34px;
+}
+
+ul li {
+    font-family: 'Indie Flower', cursive;
+}
+
+b~i {
+    text-shadow: 5px 5px 5px #7d102c;
+}
+
+#test b~i {
+    word-spacing: 50px;
+}
+
+ul+p {
+    display: block;
+    box-shadow: 5px 5px 5px #3fe9a5,
+    5px 5px 10px #3fe9a5,
+    5px 5px 15px #3fe9a5;
+}
+
+#test p+h2 {
+    text-transform: uppercase;
+}
+
+* {
+    padding: 0;
+    margin: 10px 20px;
+}
+
+p * i {
+    letter-spacing: 35px;
+}
+
+*[title] {
+    font-size: 18px;
+}
+
+p[title] {
+    padding-top: 38px;
+}
+
+p[title="title"] {
+    color: darkred;
+}
+
+a[href^="#"] {
+    text-decoration: underline dotted orangered;
+}
+
+a[href$=".html"] {
+    text-decoration: underline dashed #6e4aee;
+}
+
+p[title*="hello"] {
+    text-decoration: green wavy underline;
+}
+
+p[class^="top-"] {
+    font-size: 60px;
+}
+
+ol {
+    margin-top: 50px;
+}
+
+ol li {
+    border: 1px solid darkblue;
+    padding: 3px 10px;
+}
+
+ol li:hover {
+    background-color: green;
+}
+
+.ol1 li:hover+li, .ol2 li:hover+li+li {
+    background-color: red;
+}
+
+.ol3 li:hover~li {
+    background-color: red;
+}
+
+.ol3 li:last-child {
+    background: none !important;
+}
